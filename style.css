@@ -1,0 +1,159 @@
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+    background-color: #e8e8e8;
+    background-image: url("Ellipse_1_copy.png");
+    background-repeat: no-repeat;
+}
+
+.content{
+    text-align: center;
+}
+.content > .logo {
+    /* Style for "Travel" */
+    padding-top: 168px;
+    opacity: 0.6;
+    color: #273d46;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+    /* Text style for "Travel" */
+    letter-spacing: 2.8px;
+}
+.content > h1 {
+    /* Style for "Donec sed" */
+    color: #273d46;
+    font-family: "Times New Roman PSMT";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.content > img{
+    margin-top: 87px;
+    border: 10px solid white;
+    box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+}
+.text{
+    /* Style for "Donec ared" */
+    text-align: center;
+    padding-top: 97px;
+    opacity: 0.8;
+    color: #273d46;
+    font-family: "Times New Roman PSMT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.content > .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 736px;
+    max-height: 257px;
+}
+.list {
+    /* Style for "Put on thi" */
+    margin-top: 64px;
+    margin-left: 20px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    color: #273d46;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+li{
+    background-image: url("check_icon.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#two{
+    /* Style for "A detailed" */
+    color: #80b7b3;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+#three{
+    /* Style for "Tell us ab" */
+    color: #273d46;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 36px;
+}
+#four{
+    /* Style for "Associate" */
+    opacity: 0.3;
+    color: #273d46;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-decoration: line-through;
+}
+
+button{
+    margin-top: 59px;
+    background-color: #80b7b3;
+    border-radius: 100px;
+    /* Style for "Full Story" */
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+    /* Text style for "Full Story" */
+    letter-spacing: 2.8px;
+    background-image: url("Shape_2.png");
+    background-repeat: no-repeat;
+    background-position: 150px;
+}
+
+button:hover{
+    transition-property: all;
+    transition-duration: 500ms;
+    background-color: #4a6867;
+}
+#buttonText{
+    margin: 17px 59px 17px 30px;
+}
